@@ -39,3 +39,6 @@ yarn-error.log*
 
 # testing
 playwright/test-results
+
+# lock file
+*lock*.yaml
