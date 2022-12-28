@@ -23,7 +23,7 @@ import {
 } from '@chakra-ui/icons';
 import { NavItem } from './types/NavItems';
 
-export const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
+const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
   return (
     <Link
       href={href}
@@ -59,3 +59,4 @@ export const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
     </Link>
   );
 };
+export default DesktopSubNav;

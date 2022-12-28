@@ -23,7 +23,7 @@ import {
 } from '@chakra-ui/icons';
 import { NavItem } from './types/NavItems';
 
-export const MobileNavItem = ({ label, children, href }: NavItem) => {
+const MobileNavItem = ({ label, children, href }: NavItem) => {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -75,3 +75,5 @@ export const MobileNavItem = ({ label, children, href }: NavItem) => {
     </Stack>
   );
 };
+
+export default MobileNavItem;

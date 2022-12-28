@@ -22,9 +22,9 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-import { MobileNav } from './components/NavBar/MobileNav';
-import { DesktopNav } from './components/NavBar/DesktopNav';
 import LargeWithLogoLeft from './components/Footer/Footer';
+import DesktopNav from './components/NavBar/DesktopNav';
+import MobileNav from './components/NavBar/MobileNav';
 
 const IndexPage: NextPageWithLayout = () => {
   const { isOpen, onToggle } = useDisclosure();

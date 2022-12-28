@@ -1,4 +1,3 @@
-import { MobileNavItem } from './MobileNavItem';
 import {
   Box,
   Flex,
@@ -23,6 +22,7 @@ import {
   ChevronRightIcon,
 } from '@chakra-ui/icons';
 import { NavItem } from './types/NavItems';
+import MobileNavItem from './MobileNavItem';
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -65,7 +65,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
 ];
 
-export const MobileNav = () => {
+const MobileNav = () => {
   return (
     <Stack
       bg={useColorModeValue('white', 'gray.800')}
@@ -78,3 +78,4 @@ export const MobileNav = () => {
     </Stack>
   );
 };
+export default MobileNav;

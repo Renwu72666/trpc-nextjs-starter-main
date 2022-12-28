@@ -21,8 +21,8 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-import { DesktopSubNav } from './DesktopSubNav';
 import { NavItem } from './types/NavItems';
+import DesktopSubNav from './DesktopSubNav';
 
 const NAV_ITEMS: Array<NavItem> = [
   {
@@ -65,7 +65,7 @@ const NAV_ITEMS: Array<NavItem> = [
   },
 ];
 
-export const DesktopNav = () => {
+const DesktopNav = () => {
   const linkColor = useColorModeValue('gray.600', 'gray.200');
   const linkHoverColor = useColorModeValue('gray.800', 'white');
   const popoverContentBgColor = useColorModeValue('white', 'gray.800');
@@ -113,3 +113,5 @@ export const DesktopNav = () => {
     </Stack>
   );
 };
+
+export default DesktopNav;
