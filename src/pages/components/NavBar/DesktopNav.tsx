@@ -21,7 +21,7 @@ import {
   ChevronDownIcon,
   ChevronRightIcon,
 } from '@chakra-ui/icons';
-import { NavItem } from './types/NavItems';
+import { NavItem } from '../../../lib/NavItems';
 import DesktopSubNav from './DesktopSubNav';
 
 const NAV_ITEMS: Array<NavItem> = [
