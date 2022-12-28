@@ -39,6 +39,9 @@
     "singleQuote": true
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.4.5",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@prisma/client": "^4.8.0",
     "@tanstack/react-query": "^4.20.4",
     "@trpc/client": "^10.7.0",
@@ -46,6 +49,7 @@
     "@trpc/react-query": "^10.7.0",
     "@trpc/server": "^10.7.0",
     "clsx": "^1.2.1",
+    "framer-motion": "^6.5.1",
     "next": "^13.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
